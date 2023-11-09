@@ -1,9 +1,8 @@
 import styled from "styled-components";
 import { Container } from "../style/styes";
 import line from "../assets/line_statistique.png";
-import { motion, useInView } from "framer-motion";
-import {statistics, lineAnim, fade, pageAnim } from "../style/animation";
-import { useRef } from "react";
+import { motion } from "framer-motion";
+import {statistics, lineAnim, pageAnim } from "../style/animation";
 
 const Home_statistique = ()=>{
    
